@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# Ocean Library (Nuxt 3)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, minimalist library UI using the Ocean Professional theme. Features:
+- Header with subtle gradient and sticky behavior
+- Search bar with client-side filtering (title, author, tags)
+- Responsive grid/list of books with accessible BookCard components
+- Dynamic book detail route at `/books/[id]`
+- Smooth transitions, rounded corners, subtle shadows
+- In-memory dataset with future-ready public env config
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies:
 
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the dev server on http://localhost:3000:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+
+## Environment Variables
+
+Public variables are optional and can be set for future backend integration. See `.env.example`.
 
 ## Production
 
-Build the application for production:
+Build and preview:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
